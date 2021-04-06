@@ -158,13 +158,13 @@ font-size: 10px;}
 .postbar{background-color: #f5f5f5;
 padding-top: 83px;}
 
-.btn ul li{ list-style: none;
+.btn-2 ul li{ list-style: none;
  }
 
-.btn ul li a {text-decoration: none;
+.btn-2 ul li a {text-decoration: none;
 
 }
-.btn ul  li a{display: list-item;
+.btn-2 ul  li a{display: list-item;
 border:none;
 background-color: black;
 border-bottom: 1px solid white;
@@ -173,7 +173,7 @@ border-bottom: 1px solid white;
     font-size: 16px;
     font-weight: 600;
     color: snow;}
- .btn ul li a:hover{background-color: #ff8b38;}
+ .btn-2 ul li a:hover{background-color: #ff8b38;}
 
 
 /*<!-- POST END HERE -->*/
@@ -184,7 +184,7 @@ border-bottom: 1px solid white;
 	height: 2px;
 	width: 50px;
 	
-	margin-left: 7em;
+	margin-left: 11em;
 
 }
 .picpost{padding: 87px 0}
@@ -389,7 +389,7 @@ color: #a4a5a8;}
 .line-5{background-color: tomato;
 width: 10em;
 height: 2px;
-margin-left: 31em;
+margin-left: 36em;
 margin-top: 25px;
 margin-bottom: 20px;}
 
@@ -397,12 +397,69 @@ margin-bottom: 20px;}
 	text-align: center;
 	color: #a4a5a8;
 }
-
+.imga{flex: 30%;}
 .imga img{width: 60%;
 border-radius: 50%}
-.name{padding-right:10em; }
+.name{padding-right:10em;
+flex: 70%; }
 .flex-x{display: flex;}
 /*h6 .tyu{text-align: left;
 font-size: 40px;}
 */
+.name h3{font-size: 15px;
+font-weight: 800;}
+
+.no-name h3{font-size: 15px;
+font-weight: 800;}
+.imgs img{ width: 100%;
+height: %;
+border-radius:50%}
+
 /*CUSTOMER FEEDBACK PART */
+.tag{font-size: 15px;
+padding-top: 20px;
+margin-bottom: 30px;
+color: #a4a5a8;
+font-weight: 600;}
+.our-customer{
+
+  margin-bottom: 70px;
+}
+
+/*banner two from here*/
+.banner-two{
+background-image: url(../img/long.jpg);
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 40vh;
+margin-top: 20px;
+margin-bottom: 30px;}
+
+.b-head h2{color: white;
+text-align: center;
+padding-top: 1.5em;
+font-weight: 200;}
+.line-8{
+height: 1.5px;
+width: 4em;
+background-color:  white;
+margin-left:35em;
+padding-right: 10em;
+margin-top: 2em;
+
+ }
+ .banner-pre p{color: white;
+  text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+font-family: 'myriad-pro' sans-serif;
+font-weight: 100;}
+
+.btn{color: white!important;
+text-align: center;
+margin-left: 36em;
+border-color: white !important;
+padding: 12px 40px 15px 40px !important;}
+/*banner two end here*/
