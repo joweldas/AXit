@@ -158,22 +158,60 @@ font-size: 10px;}
 .postbar{background-color: #f5f5f5;
 padding-top: 83px;}
 
-.btn-2 ul li{ list-style: none;
- }
+ .postbar ul li {list-style: none;
+  height: 88px;
+  background: black;
+  text-align: center;
+  margin-bottom: 2px;
+  line-height: 80px;
 
-.btn-2 ul li a {text-decoration: none;
 
 }
-.btn-2 ul  li a{display: list-item;
-border:none;
-background-color: black;
-border-bottom: 1px solid white;
-    height: 70px;
-    padding: 18px;
-    font-size: 16px;
-    font-weight: 600;
-    color: snow;}
- .btn-2 ul li a:hover{background-color: #ff8b38;}
+.postbar ul li a{
+  text-decoration: none;
+  color:white;}
+.postbar h4{
+  text-align: center;
+ /* font-family: sans-serif;*/
+ width: 800;
+ font-size: 20px;
+ padding-bottom: 20px;
+}
+
+.postbar p{
+  margin: 32px 0;
+  color:#b0b0b0;
+}
+
+.postbar button{
+  padding: 12px 25px;
+  background:#ff8b38;
+  border: 2px solid white;
+  color: white;
+
+
+}
+.active-color{
+  background: #ff8b38 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*<!-- POST END HERE -->*/
@@ -355,6 +393,22 @@ color: #a4a5a8;}
 
 /*AWESOME PART END*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /* pricing part from here */
 .pricing-part{
 	background-color: #f5f5f5;
@@ -377,6 +431,89 @@ margin-bottom: 20px;}
 	text-align: center;
 font-size:13px; 
 color: #a4a5a8;}
+
+
+.table-1 .price-cat,
+.table-1 .price-body{
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+.price-cat p{    margin: 0;
+    margin-bottom: 2px;
+    font-size: 19px;
+    padding: 14px 0;
+     font-weight: 600;
+   }
+
+.price-body h1{
+  padding: 30px 0;
+  font-size: 71px;
+}
+.price-body {
+  margin-bottom: 15px;
+  border-bottom: 5px solid #ff8b38 !important;
+}
+
+.table-1{margin-top: 20px;}
+.sevices ul li{
+  list-style: none;
+  text-align: center;
+  margin-top: 5px;
+  text-transform: uppercase;
+  color: #999999;
+  border-bottom: 1px solid #c3c3c5;
+  padding: 10px 0
+  line-height:10px;
+
+}
+
+.table-2{
+  background-color: black;
+
+
+}
+.bas {
+    text-align: center;
+    border-bottom: 4px solid white;
+    padding: 14px 0;
+    font-size: 19px;
+    color: white;
+     font-weight: 600;
+}
+.dollar{
+   
+    color: white;
+    text-align: center;
+}
+.dollar h1{
+  font-size: 74px;
+      padding: 20px 0
+}
+.lastp{    color: white;
+    text-align: center;
+    padding-bottom: 7px;}
+.most{background: #ff8b38;
+    padding: 3px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 4px;}
+
+.cup{font-size: 29px;}
+
+
+
+
+
+
+
+
+
+
+
+
 /* pricing part end here */
 
 /*CUSTOMER FEEDBACK PART START*/
@@ -523,4 +660,4 @@ display: inline-block;}
 .copyright p{color: grey;
 text-align: center;
 font-size: 13px}
-/*END PART SRAT*/
+/*END PART SRAT*
